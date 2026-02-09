@@ -3,7 +3,7 @@ import random
 
 user_balance = 2000
 
-bot = telebot.TeleBot("8237489345:AAEyI6TX4HdISkbc5JC5e-Nfp2ClmR65T2w")
+bot = telebot.TeleBot("YOUR_TOKEN")
 
 markup = telebot.types.ReplyKeyboardMarkup(resize_keyboard=True)
 btn1 = telebot.types.KeyboardButton("Казино бот 🎲")
